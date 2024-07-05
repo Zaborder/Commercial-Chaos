@@ -1,0 +1,59 @@
+{
+	"storyName": "Batter me up",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"uncanny-valley",
+			"icecream",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"last-appointment",
+			"amigo",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"batter-up",
+			"mcsonic",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"strike",
+			"supersonic",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 1",
+	"hiddenUntilUnlocked": false
+}

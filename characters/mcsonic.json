@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-330,
+				30
+			],
+			"anim": "cutscene",
+			"fps": 12,
+			"name": "mcsonic transition",
+			"indices": []
+		},
+		{
+			"offsets": [
+				172,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-9,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-6,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-41,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mcsonic",
+	"position": [
+		-130,
+		160
+	],
+	"healthicon": "mcsonic",
+	"flip_x": false,
+	"healthbar_colors": [
+		64,
+		67,
+		215
+	],
+	"camera_position": [
+		-30,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

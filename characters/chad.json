@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ChadIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ChadDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				569,
+				272
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ChadUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				142,
+				-60
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ChadRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				156,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ChadLeft",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/chad",
+	"position": [
+		0,
+		-190
+	],
+	"healthicon": "chad",
+	"flip_x": false,
+	"healthbar_colors": [
+		32,
+		232,
+		226
+	],
+	"camera_position": [
+		-50,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 0.85,
+	"_editor_isPlayer": false
+}

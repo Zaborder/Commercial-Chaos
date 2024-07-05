@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="backboppers.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="backboppers0000" x="10" y="10" width="3646" height="447"/>
+	<SubTexture name="backboppers0001" x="10" y="10" width="3646" height="447"/>
+	<SubTexture name="backboppers0002" x="10" y="467" width="3644" height="446" frameX="-1" frameY="-1" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0003" x="10" y="467" width="3644" height="446" frameX="-1" frameY="-1" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0004" x="10" y="923" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0005" x="10" y="923" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0006" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0007" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0008" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0009" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0010" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0011" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0012" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+	<SubTexture name="backboppers0013" x="10" y="1376" width="3639" height="443" frameX="-3" frameY="-4" frameWidth="3646" frameHeight="447"/>
+</TextureAtlas>

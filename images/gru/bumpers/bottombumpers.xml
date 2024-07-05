@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bottombumpers.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minbottom0000" x="10" y="10" width="2906" height="629" frameX="0" frameY="-6" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0001" x="10" y="10" width="2906" height="629" frameX="0" frameY="-6" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0002" x="10" y="649" width="2903" height="631" frameX="0" frameY="-4" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0003" x="10" y="649" width="2903" height="631" frameX="0" frameY="-4" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0004" x="10" y="1290" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0005" x="10" y="1290" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0006" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0007" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0008" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0009" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0010" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0011" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0012" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+	<SubTexture name="minbottom0013" x="10" y="1936" width="2892" height="636" frameX="0" frameY="0" frameWidth="2906" frameHeight="636"/>
+</TextureAtlas>

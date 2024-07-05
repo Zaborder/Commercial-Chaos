@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wario.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Wario Up0000" x="0" y="1428" width="525" height="689" frameX="-253" frameY="-66" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Up0001" x="861" y="0" width="769" height="671" frameX="-136" frameY="-97" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Up0002" x="0" y="0" width="861" height="671" frameX="-87" frameY="-115" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Down0000" x="1630" y="0" width="539" height="743" frameX="-249" frameY="-282" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Down0001" x="553" y="671" width="554" height="730" frameX="-242" frameY="-276" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Down0002" x="0" y="671" width="553" height="757" frameX="-242" frameY="-220" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Left0000" x="1041" y="1428" width="522" height="654" frameX="-117" frameY="-234" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Left0001" x="1630" y="743" width="514" height="669" frameX="-137" frameY="-233" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Left0002" x="525" y="1428" width="516" height="663" frameX="-148" frameY="-239" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Right0000" x="1107" y="671" width="491" height="707" frameX="-468" frameY="-225" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Right0001" x="2169" y="0" width="476" height="717" frameX="-451" frameY="-205" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Right0002" x="2169" y="717" width="476" height="705" frameX="-445" frameY="-204" frameWidth="1024" frameHeight="1024"/>
+	<SubTexture name="Wario Idle0000" x="0" y="2117" width="490" height="667" frameX="-42" frameY="-49" frameWidth="574" frameHeight="763"/>
+	<SubTexture name="Wario Idle0001" x="2645" y="0" width="489" height="670" frameX="-43" frameY="-47" frameWidth="574" frameHeight="763"/>
+	<SubTexture name="Wario Idle0002" x="2645" y="670" width="488" height="668" frameX="-43" frameY="-48" frameWidth="574" frameHeight="763"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+Bpm Changes:
+
+The whole friendly part: 145bpm
+The "slow" section (a.k.a the part after the friendly part): 145 ~ 60 - 145
+The transition to the slow section to the realmigo section: 145 ~ 160
+The whole realmigo section - 160bpm
+
+~ = gradually changing to*

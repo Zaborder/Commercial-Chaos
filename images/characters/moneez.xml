@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="moneez.png">
+<SubTexture name="moneez idle0000" x="812" y="356" width="133" height="332" frameX="-179" frameY="-184" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez down0000" x="1482" y="696" width="264" height="193" frameX="-77" frameY="-327" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez down0001" x="1482" y="495" width="259" height="201" frameX="-81" frameY="-320" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez down0002" x="279" y="1297" width="283" height="218" frameX="-78" frameY="-300" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez down0003" x="0" y="1297" width="279" height="224" frameX="-81" frameY="-295" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez right0000" x="1190" y="0" width="292" height="290" frameX="-153" frameY="-220" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez right0001" x="1190" y="579" width="289" height="288" frameX="-150" frameY="-221" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez right0002" x="808" y="698" width="285" height="293" frameX="-150" frameY="-216" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez right0003" x="522" y="698" width="286" height="295" frameX="-144" frameY="-215" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez up0000" x="1083" y="1008" width="268" height="255" frameX="-123" frameY="-90" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez up0001" x="1482" y="0" width="272" height="248" frameX="-121" frameY="-102" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez up0002" x="949" y="0" width="241" height="315" frameX="-145" frameY="-100" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez up0003" x="0" y="698" width="248" height="310" frameX="-141" frameY="-110" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez left0004" x="201" y="0" width="271" height="343" frameX="-76" frameY="-173" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez left0005" x="686" y="0" width="263" height="342" frameX="-87" frameY="-174" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez left0006" x="596" y="356" width="216" height="341" frameX="-131" frameY="-175" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez left0007" x="472" y="0" width="214" height="343" frameX="-139" frameY="-174" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-down0000" x="856" y="1297" width="311" height="156" frameX="-47" frameY="-364" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-down0001" x="1482" y="696" width="264" height="193" frameX="-77" frameY="-327" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-down0002" x="1482" y="248" width="255" height="247" frameX="-95" frameY="-262" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-down0003" x="562" y="1297" width="294" height="214" frameX="-86" frameY="-270" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-right0000" x="0" y="1008" width="296" height="289" frameX="-164" frameY="-221" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-right0001" x="296" y="1008" width="293" height="288" frameX="-159" frameY="-221" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-right0002" x="808" y="698" width="285" height="293" frameX="-150" frameY="-216" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-right0003" x="248" y="698" width="274" height="304" frameX="-137" frameY="-207" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-up0000" x="589" y="1008" width="237" height="286" frameX="-135" frameY="-44" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-up0001" x="826" y="1008" width="257" height="261" frameX="-127" frameY="-82" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-up0002" x="949" y="315" width="241" height="315" frameX="-142" frameY="-100" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-up0003" x="1190" y="290" width="268" height="289" frameX="-128" frameY="-129" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-left0000" x="0" y="356" width="311" height="342" frameX="-31" frameY="-174" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-left0001" x="311" y="356" width="285" height="342" frameX="-58" frameY="-174" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-left0002" x="596" y="356" width="216" height="341" frameX="-131" frameY="-175" frameWidth="466" frameHeight="562" />
+<SubTexture name="moneez alt-left0003" x="0" y="0" width="201" height="356" frameX="-145" frameY="-161" frameWidth="466" frameHeight="562" />
+</TextureAtlas>

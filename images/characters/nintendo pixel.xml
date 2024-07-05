@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nintendo pixel.png">
+<SubTexture name="intro0000" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0001" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0002" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0003" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0004" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0005" x="1926" y="0" width="1606" height="996" frameX="-110" frameY="-90" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0006" x="1926" y="0" width="1606" height="996" frameX="-110" frameY="-90" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0007" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0008" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0009" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0010" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0011" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0012" x="0" y="1086" width="1566" height="966" frameX="-140" frameY="-120" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0013" x="0" y="1086" width="1566" height="966" frameX="-140" frameY="-120" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0014" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0015" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0016" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0017" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0018" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0019" x="1566" y="1086" width="1546" height="956" frameX="-145" frameY="-115" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0020" x="1566" y="1086" width="1546" height="956" frameX="-145" frameY="-115" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0021" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0022" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0023" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0024" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0025" x="0" y="0" width="1926" height="1086" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0026" x="0" y="2052" width="1543" height="953" frameX="-147" frameY="-119" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="intro0027" x="0" y="2052" width="1543" height="953" frameX="-147" frameY="-119" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

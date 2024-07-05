@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="center_lights.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="1416" y="0" width="1410" height="744" frameX="-4" frameY="2" frameWidth="1412" frameHeight="740"/>
+	<SubTexture name="idle0001" x="0" y="0" width="1416" height="744" frameX="2" frameY="2" frameWidth="1412" frameHeight="740"/>
+</TextureAtlas>

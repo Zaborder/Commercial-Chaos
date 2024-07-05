@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "PEPER_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				103
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "PEPER_LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-190,
+				-102
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "PEPER_RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				260
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "PEPER_DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-126,
+				234
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "PEPER_UP",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peperami",
+	"position": [
+		-90,
+		120
+	],
+	"healthicon": "peperami",
+	"flip_x": false,
+	"healthbar_colors": [
+		148,
+		105,
+		86
+	],
+	"camera_position": [
+		10,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

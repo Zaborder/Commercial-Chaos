@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="frontboppers.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="frontboppers0000" x="10" y="10" width="4264" height="603"/>
+	<SubTexture name="frontboppers0001" x="10" y="10" width="4264" height="603"/>
+	<SubTexture name="frontboppers0002" x="10" y="623" width="4262" height="601" frameX="0" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0003" x="10" y="623" width="4262" height="601" frameX="0" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0004" x="10" y="1234" width="4261" height="600" frameX="-1" frameY="-3" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0005" x="10" y="1234" width="4261" height="600" frameX="-1" frameY="-3" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0006" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0007" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0008" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0009" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0010" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0011" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0012" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+	<SubTexture name="frontboppers0013" x="10" y="1844" width="4259" height="601" frameX="-3" frameY="-2" frameWidth="4264" frameHeight="603"/>
+</TextureAtlas>

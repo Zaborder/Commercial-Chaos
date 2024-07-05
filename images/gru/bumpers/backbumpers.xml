@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minions.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minionbackbumpers0000" x="10" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0001" x="10" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0002" x="710" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0003" x="710" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0004" x="1410" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0005" x="1410" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0006" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0007" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0008" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0009" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0010" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0011" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0012" x="2110" y="10" width="690" height="337"/>
+	<SubTexture name="minionbackbumpers0013" x="2110" y="10" width="690" height="337"/>
+</TextureAtlas>

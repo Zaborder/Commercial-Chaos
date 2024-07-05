@@ -1,0 +1,59 @@
+{
+	"storyName": "to the moon",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"dealtastic",
+			"gru",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"deal-or-no-deal",
+			"dond",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"commercial-break",
+			"chad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"wicked-impostor",
+			"waaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 2",
+	"hiddenUntilUnlocked": false
+}

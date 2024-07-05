@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minions.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minionupperbehind0000" x="10" y="10" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0001" x="10" y="10" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0002" x="10" y="427" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0003" x="10" y="427" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0004" x="10" y="844" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0005" x="10" y="844" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0006" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0007" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0008" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0009" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0010" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0011" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0012" x="10" y="1261" width="3503" height="407"/>
+	<SubTexture name="minionupperbehind0013" x="10" y="1261" width="3503" height="407"/>
+</TextureAtlas>

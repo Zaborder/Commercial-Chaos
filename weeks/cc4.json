@@ -1,0 +1,59 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"garten-of-chaos",
+			"garten-amigo",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"annoyance",
+			"moneez",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"psfunkin",
+			"monsterps1",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"hijacked",
+			"max",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Bonus Week"
+}

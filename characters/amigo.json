@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				1
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AmigoIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				-16
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AmigoDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				43
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AmigoUp",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-40,
+				23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AmigoLeft"
+		},
+		{
+			"offsets": [
+				83,
+				38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AmigoRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/amigo",
+	"position": [
+		-231,
+		-310
+	],
+	"healthicon": "amigo",
+	"flip_x": false,
+	"healthbar_colors": [
+		207,
+		87,
+		111
+	],
+	"camera_position": [
+		150,
+		220
+	],
+	"sing_duration": 6,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

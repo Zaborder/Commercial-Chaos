@@ -1,0 +1,134 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "moneez idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "moneez left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "moneez right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "moneez down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "moneez up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				-148
+			],
+			"anim": "explode",
+			"fps": 24,
+			"name": "moneez explode",
+			"indices": []
+		},
+		{
+			"offsets": [
+				170,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "moneez alt-left"
+		},
+		{
+			"offsets": [
+				-140,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "moneez alt-right"
+		},
+		{
+			"offsets": [
+				10,
+				148
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "moneez alt-up"
+		},
+		{
+			"offsets": [
+				0,
+				-80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "moneez alt-down"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/moneez",
+	"position": [
+		-90,
+		210
+	],
+	"healthicon": "moneez",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		20,
+		20
+	],
+	"camera_position": [
+		-50,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

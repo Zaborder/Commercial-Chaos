@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				60
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bfLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-78,
+				70
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bfRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				66
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bfDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				87
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bfUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				57
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bfIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				41
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "missdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				59
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				86
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				59
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfps1",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bfps1",
+	"flip_x": true,
+	"healthbar_colors": [
+		46,
+		162,
+		233
+	],
+	"camera_position": [
+		-60,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}
