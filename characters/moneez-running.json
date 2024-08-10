@@ -1,0 +1,132 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				140,
+				18
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				157,
+				33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				100,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				120,
+				90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				110,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "turn",
+			"indices": [],
+			"name": "turnaround"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				50
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				90
+			],
+			"anim": "no",
+			"fps": 24,
+			"name": "no",
+			"indices": [
+				5,
+				50,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/moneez-running",
+	"position": [
+		-390,
+		280
+	],
+	"healthicon": "moneez",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		20,
+		20
+	],
+	"camera_position": [
+		-70,
+		-30
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

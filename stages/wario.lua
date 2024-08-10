@@ -26,7 +26,7 @@ function onUpdate(elapsed)
 	
    
     if enableSystem == true then
-            	setProperty('defaultCamZoom',0.7) -- +150 -100
+            	setProperty('defaultCamZoom',0.8) -- +150 -100
                     DadX = getMidpointX('dad') + 150 + getProperty('dad.cameraPosition[0]') + getProperty('opponentCameraOffset[0]')
                     DadY = getMidpointY('dad') - 100 + getProperty('dad.cameraPosition[1]') + getProperty('opponentCameraOffset[1]')
                     if getProperty('dad.animation.curAnim.name') == 'singLEFT' or getProperty('dad.animation.curAnim.name') == 'singLEFT-alt' then
@@ -38,9 +38,17 @@ function onUpdate(elapsed)
                     elseif getProperty('dad.animation.curAnim.name') == 'singDOWN' or getProperty('dad.animation.curAnim.name') == 'singDOWN-alt' then
                         triggerEvent('Camera Follow Pos',DadX,DadY+DadOfs)
                     else
-            		setProperty('defaultCamZoom',0.6)
+            		setProperty('defaultCamZoom',0.7)
                             triggerEvent('Camera Follow Pos',DadX,DadY)
                     end
 
+	end
+end
+function onStepHit()
+	if curStep == 1292 then 
+        tankSpeed = 400
+	end
+	if curStep == 1420 then 
+        tankSpeed = 100
 	end
 end

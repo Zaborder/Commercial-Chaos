@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fw_superhero.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="537" y="0" width="534" height="608" frameX="-192" frameY="-165" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0000" x="537" y="0" width="534" height="608" frameX="-192" frameY="-165" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0001" x="537" y="0" width="534" height="608" frameX="-192" frameY="-165" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0002" x="0" y="0" width="537" height="610" frameX="-183" frameY="-164" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0003" x="0" y="610" width="406" height="611" frameX="-278" frameY="-164" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0004" x="1071" y="0" width="400" height="612" frameX="-276" frameY="-163" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0005" x="406" y="610" width="405" height="610" frameX="-279" frameY="-164" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0006" x="1471" y="0" width="280" height="575" frameX="-326" frameY="-206" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0007" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0008" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0009" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0010" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0011" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0012" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0013" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0014" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0015" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0016" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0017" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0018" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0019" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0010" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0020" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="turn0021" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+	<SubTexture name="idle20000" x="1071" y="612" width="289" height="570" frameX="-329" frameY="-210" frameWidth="1579" frameHeight="901"/>
+</TextureAtlas>

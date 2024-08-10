@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf-uncanny.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf-uncanny0000" x="10" y="10" width="437" height="812" frameX="-3" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0001" x="10" y="10" width="437" height="812" frameX="-3" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0002" x="457" y="10" width="442" height="812" frameX="-2" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0003" x="457" y="10" width="442" height="812" frameX="-2" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0004" x="457" y="10" width="442" height="812" frameX="-2" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0005" x="909" y="10" width="435" height="812" frameX="0" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0006" x="909" y="10" width="435" height="812" frameX="0" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0007" x="1354" y="10" width="439" height="812" frameX="-1" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0008" x="1354" y="10" width="439" height="812" frameX="-1" frameY="0" frameWidth="444" frameHeight="812"/>
+	<SubTexture name="gf-uncanny0009" x="1354" y="10" width="439" height="812" frameX="-1" frameY="0" frameWidth="444" frameHeight="812"/>
+</TextureAtlas>

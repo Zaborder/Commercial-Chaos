@@ -22,6 +22,7 @@ function onStepHit()
   		doTweenAlpha('coinsbyebye', 'coins', 0, 2)
 		doTweenY('coinsxx','coins.scale', 0.1, 2, 'sineInOut')
 		doTweenX('coinsyy','coins.scale', 0.1, 2, 'sineInOut')
+        doTweenAlpha('dadgoaway', 'dad', 0, 0.75, 'quadOut')
 		tweenallowed = false
 	end
 end

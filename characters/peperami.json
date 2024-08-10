@@ -1,66 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				0
+				20
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "PEPER_IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "PEPER_IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				51,
 				103
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "PEPER_LEFT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "PEPER_LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-190,
-				-102
+				-92
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "PEPER_RIGHT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "PEPER_RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				260
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "PEPER_DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "PEPER_DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-126,
 				234
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "PEPER_UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "PEPER_UP"
+		},
+		{
+			"offsets": [
+				-140,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "throw",
+			"loop": false,
+			"name": "throw"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/peperami",
 	"position": [
 		-90,
-		120
+		160
 	],
 	"healthicon": "peperami",
 	"flip_x": false,
@@ -70,7 +81,7 @@
 		86
 	],
 	"camera_position": [
-		10,
+		0,
 		-150
 	],
 	"sing_duration": 4,

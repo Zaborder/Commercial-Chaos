@@ -100,11 +100,11 @@
 			"indices": []
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/bfps1",
 	"position": [
-		0,
-		350
+		-70,
+		230
 	],
 	"healthicon": "bfps1",
 	"flip_x": true,
@@ -118,6 +118,6 @@
 		-40
 	],
 	"sing_duration": 4,
-	"scale": 1,
+	"scale": 0.7,
 	"_editor_isPlayer": true
 }

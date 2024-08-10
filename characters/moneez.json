@@ -3,17 +3,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "moneez idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				48,
 				2
 			],
@@ -68,54 +57,36 @@
 		},
 		{
 			"offsets": [
-				170,
-				0
+				-171,
+				-152
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "moneez alt-left"
-		},
-		{
-			"offsets": [
-				-140,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "moneez alt-right"
-		},
-		{
-			"offsets": [
-				10,
-				148
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP-alt",
-			"indices": [],
-			"name": "moneez alt-up"
-		},
-		{
-			"offsets": [
+			"anim": "idle",
+			"indices": [
 				0,
-				-80
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "moneez alt-down"
+			"name": "moneez idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/moneez",
 	"position": [
-		-90,
-		210
+		-100,
+		230
 	],
 	"healthicon": "moneez",
 	"flip_x": false,
@@ -126,7 +97,7 @@
 	],
 	"camera_position": [
 		-50,
-		80
+		60
 	],
 	"sing_duration": 6.1,
 	"scale": 1,

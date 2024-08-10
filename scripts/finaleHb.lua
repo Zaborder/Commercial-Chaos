@@ -60,4 +60,8 @@ function onTimerCompleted(t,l,ll)
 		doTweenY('appeartween', 'titlecard', getProperty('titlecard.y') + getProperty('titlecard.y')/4, 0.75, 'expoIn')
 
 	end
+
+	if t == 'appearalpha' then
+	removeLuaSprite('titlecard',true)
+	end
 end

@@ -21,11 +21,12 @@ function onCreate()
 	setScrollFactor("lights2", 1.1, 1.2)
 	--setScrollFactor("lights3", 0.8, 1.1)
 	
-	--setScrollFactor('fog1', 1.2, 1.3);
+	setProperty('boyfriendCameraOffset[0]', 125) --[125, -200],
+	setProperty('boyfriendCameraOffset[1]', -200)
 end
 
 local i = 2
-function onBeatHit()
+function onBeatHit() 
 	if curBeat % 2 == 0 then
 		i = 1
 	end
@@ -39,6 +40,3 @@ function onUpdate()
 		objectPlayAnimation('lights2', 'light'..i, false)
 		objectPlayAnimation('lights3', 'light'..i, false)
 end
-
---setProperty('eagle' .. i.. '.x', getProperty('eagle'.. i.. '.x')-30)
---addLuaSprite('eagle'.. eaglenum, true)

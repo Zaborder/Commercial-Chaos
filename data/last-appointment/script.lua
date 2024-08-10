@@ -22,19 +22,6 @@ function onCreatePost()
 end
 
 function onBeatHit()
-	--[[if curBeat == 5 then
-		runTimer('real',0)
-		cameraFlash('Hud', '000000', 1,false)
-	end
-	if curBeat == 10 then
-		runTimer('clinic',0)
-		cameraFlash('Hud', '000000', 1,false)
-	end
-	if curBeat == 15 then
-		runTimer('real',0)
-		cameraFlash('Hud', '000000', 1,false)
-	end
-	--]]
 	if curBeat == 292 then
 		doTweenZoom('campanzoom','camGame',1.25,14,'sineInOut')
 		doTweenAlpha('staticalpha','static',1,13.1,'sineInOut')
@@ -95,12 +82,25 @@ function onUpdatePost()
 	if clinic == false then
 		if mustHitSection == false then
 			setProperty('defaultCamZoom',0.65)
-		else
+
+			doTweenY('bfsx','boyfriendGroup.scale', 1, 0.1, 'sineInOut')
+			doTweenX('bfsy','boyfriendGroup.scale', 1, 0.1, 'sineInOut')
+
+			else
+			doTweenY('bfsx','boyfriendGroup.scale', 1.35, 0.1, 'sineInOut')
+			doTweenX('bfsy','boyfriendGroup.scale', 1.35, 0.1, 'sineInOut')
+
+
 			setProperty('defaultCamZoom',0.45)
 		end
-	setProperty('iconP2.offset.x', getRandomFloat(-5,5))
-	setProperty('iconP2.offset.y', getRandomFloat(15,25))
+		setProperty('iconP2.offset.x', getRandomFloat(-5,5))
+		setProperty('iconP2.offset.y', getRandomFloat(15,25))
+	else
+
+		doTweenY('bfsx','boyfriendGroup.scale', 0.6, 0.01, 'sineInOut')
+		doTweenX('bfsy','boyfriendGroup.scale', 0.6, 0.01, 'sineInOut')
 	end
+
 end
 
 function onTweenCompleted(t,l,ll)
@@ -117,12 +117,14 @@ function onTimerCompleted(t,l,ll)
 		setProperty('sitting.visible',false)
 		setProperty('crack.visible',false)
 		setProperty('flower.visible',false)
-		setProperty('boyfriend.visible',false)
+		setProperty('boyfriendGroup.x', getProperty('boyfriendGroup.x')-600)
+		setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y')+700)
 		triggerEvent('Change Character','dad','amigo-real-form')
+		triggerEvent('Change Character','bf','bf-amigo-2')
 		setProperty('walls.visible',true)
-		
-		setProperty('boyfriendCameraOffset[0]', getProperty('boyfriendCameraOffset[0]')-475)
-		setProperty('boyfriendCameraOffset[1]', getProperty('boyfriendCameraOffset[1]')+50)
+
+		setProperty('boyfriendCameraOffset[0]', getProperty('boyfriendCameraOffset[0]')+120)
+		setProperty('boyfriendCameraOffset[1]', getProperty('boyfriendCameraOffset[1]')-500)
 		clinic = false
 	end
 
@@ -133,13 +135,19 @@ function onTimerCompleted(t,l,ll)
 		setProperty('sitting.visible',true)
 		setProperty('crack.visible',true)
 		setProperty('flower.visible',true)
-		setProperty('boyfriend.visible',true)
+		setProperty('boyfriendGroup.x', getProperty('boyfriendGroup.x')+600)
+		setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y')-700)
 		triggerEvent('Change Character','dad','amigo')
+		triggerEvent('Change Character','bf','bf-amigo')
 		setProperty('walls.visible',false)
 		setProperty('defaultCamZoom',0.75)
 		
-		setProperty('boyfriendCameraOffset[0]', getProperty('boyfriendCameraOffset[0]')+475)
-		setProperty('boyfriendCameraOffset[1]', getProperty('boyfriendCameraOffset[1]')-50)
+		setProperty('boyfriendCameraOffset[0]', getProperty('boyfriendCameraOffset[0]')-120)
+		setProperty('boyfriendCameraOffset[1]', getProperty('boyfriendCameraOffset[1]')+500)
 		clinic = true
+	end
+end
+function onUpdate(elapse)
+	if mustHitSection == false then
 	end
 end

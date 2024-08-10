@@ -1,0 +1,96 @@
+{
+	"song": {
+		"events": [
+			[
+				51562.5,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.6",
+						"0.1"
+					]
+				]
+			],
+			[
+				60468.75,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				75000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.6",
+						"0.1"
+					]
+				]
+			],
+			[
+				75468.75,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				112382.8125,
+				[
+					[
+						"Change Scroll Speed",
+						"0.2",
+						"0.2"
+					]
+				]
+			],
+			[
+				112500,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				127500,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			]
+		]
+	}
+}

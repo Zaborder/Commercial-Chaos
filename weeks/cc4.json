@@ -3,17 +3,21 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
-			"garten-of-chaos",
+			"annoyance",
 			"garten-amigo",
 			[
 				146,
@@ -22,7 +26,7 @@
 			]
 		],
 		[
-			"annoyance",
+			"psfunkin",
 			"moneez",
 			[
 				146,
@@ -31,17 +35,8 @@
 			]
 		],
 		[
-			"psfunkin",
-			"monsterps1",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
 			"hijacked",
-			"max",
+			"monsterps1",
 			[
 				146,
 				113,
@@ -49,11 +44,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Bonus Week"
+	"hideStoryMode": false,
+	"weekName": "Bonus Week",
+	"hiddenUntilUnlocked": false
 }

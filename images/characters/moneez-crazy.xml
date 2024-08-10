@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="moneez-crazy.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="up0000" x="928" y="855" width="920" height="748" frameX="-368" frameY="-227" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="up0001" x="800" y="1729" width="992" height="678" frameX="-368" frameY="-298" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="up0002" x="3380" y="986" width="519" height="514" frameX="-512" frameY="-462" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="up0003" x="3380" y="1500" width="503" height="434" frameX="-519" frameY="-541" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="right0000" x="0" y="1729" width="800" height="896" frameX="-345" frameY="-149" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="right0001" x="0" y="855" width="928" height="874" frameX="-137" frameY="-171" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="right0002" x="0" y="0" width="969" height="855" frameX="-94" frameY="-190" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="right0003" x="969" y="0" width="986" height="839" frameX="-77" frameY="-206" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="left0000" x="3380" y="0" width="650" height="986" frameX="-489" frameY="-87" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="left0001" x="2673" y="997" width="671" height="991" frameX="-489" frameY="-82" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="left0002" x="2673" y="0" width="707" height="997" frameX="-489" frameY="-76" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="left0003" x="1955" y="0" width="718" height="1005" frameX="-489" frameY="-68" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="down0000" x="2673" y="1988" width="229" height="367" frameX="-621" frameY="-367" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="down0001" x="3689" y="1934" width="253" height="397" frameX="-609" frameY="-361" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="down0002" x="1955" y="1005" width="214" height="384" frameX="-652" frameY="-407" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="down0003" x="1792" y="1729" width="189" height="388" frameX="-675" frameY="-428" frameWidth="1482" frameHeight="1129"/>
+	<SubTexture name="idle0000" x="3380" y="1934" width="309" height="628" frameX="-633" frameY="-283" frameWidth="1482" frameHeight="1129"/>
+</TextureAtlas>

@@ -1,20 +1,49 @@
-function onCreate()
+local allow = false
+function onSectionHit()
+    if curSection == 105 then
 
-    runTimer('tween', 0.5)
+    runHaxeCode([[
+        for (strum in game.opponentStrums)
+        {
+            strum.camera = game.camGame;
+            strum.scrollFactor.set(0, 0);
+        }
+
+        for (note in game.unspawnNotes)
+        {
+            if (!note.mustPress) {
+                note.camera = game.camGame;
+                note.scrollFactor.set(0, 0);
+            }
+        }
+    ]])
+
+    allow = true
+    end
 end
-function onTimerCompleted(tag)
 
-    if tag == 'tween' then
-
-        noteTweenX('sus', 4, 90, 0.0005)
-        noteTweenX('sus2', 5, 205, 0.0005)
-        noteTweenX('sus3', 6, 315, 0.0005)
-        noteTweenX('sus4', 7, 428, 0.0005)
-
-        noteTweenX('susOp', 0, 730, 0.0005)
-        noteTweenX('susOp2', 1, 845, 0.0005)
-        noteTweenX('susOp3', 2, 954, 0.0005)
-        noteTweenX('susOp4', 3, 1070, 0.0005)
-
+function onSpawnNote(i)
+	if allow == true then
+  	  for i = 0, 3 do
+		setPropertyFromGroup('opponentStrums', i, 'x', getRandomInt(-100,1300))
+		setPropertyFromGroup('opponentStrums', i, 'y', getRandomInt(-150,700))		
+	   end
+		noteTweenAngle('spin', i, getRandomInt(360,-360), 1, 'sineInOut');
 	end
 end
+
+
+local direction = 10
+local booba = 0
+function onUpdatePost()
+	if allow == true then
+		booba = booba + 0.5
+
+	        setPropertyFromGroup('opponentStrums', 0, 'direction', 0 +booba);
+	        setPropertyFromGroup('opponentStrums', 1, 'direction', 90 +booba);
+	        setPropertyFromGroup('opponentStrums', 2, 'direction', 180 +booba);
+	        setPropertyFromGroup('opponentStrums', 3, 'direction', 270 +booba);
+	end
+
+end
+

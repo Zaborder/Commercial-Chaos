@@ -2,9 +2,9 @@ function onCreatePost()
 
 
     for i = 0, 3 do
-    setPropertyFromGroup('opponentStrums', i, 'x', getMidpointX('dad')-150);
-    setPropertyFromGroup('opponentStrums', i, 'y', getMidpointY('dad')+100);
-    setPropertyFromGroup('opponentStrums', i, 'visible', false)
+        setPropertyFromGroup('opponentStrums', i, 'x', getMidpointX('dad')-150);
+        setPropertyFromGroup('opponentStrums', i, 'y', getMidpointY('dad')+100);
+        setPropertyFromGroup('opponentStrums', i, 'visible', false)
     end
     setObjectOrder('dad', 19)
 
@@ -18,6 +18,7 @@ function onCreatePost()
 	doTweenY('coinsx','coins.scale', 0.1, 0.1, 'sineInOut')
 	doTweenX('coinsy','coins.scale', 0.1, 0.1, 'sineInOut')
 end
+
 enableSystem = true
 local booba = 0
 function onUpdate()
@@ -30,40 +31,20 @@ function onUpdate()
         setPropertyFromGroup('opponentStrums', 2, 'direction', 180 +booba);
         setPropertyFromGroup('opponentStrums', 3, 'direction', 270 +booba);
     end
-    
-	
-    if enableSystem == true then
-            	setProperty('defaultCamZoom',0.7) -- +150 -100
-                    DadX = getMidpointX('dad') + 150 + getProperty('dad.cameraPosition[0]') + getProperty('opponentCameraOffset[0]')
-                    DadY = getMidpointY('dad') - 100 + getProperty('dad.cameraPosition[1]') + getProperty('opponentCameraOffset[1]')
-                    if getProperty('dad.animation.curAnim.name') == 'singLEFT' or getProperty('dad.animation.curAnim.name') == 'singLEFT-alt' then
-                        triggerEvent('Camera Follow Pos',DadX-DadOfs,DadY)
-                    elseif getProperty('dad.animation.curAnim.name') == 'singRIGHT' or getProperty('dad.animation.curAnim.name') == 'singRIGHT-alt' then
-                        triggerEvent('Camera Follow Pos',DadX+(DadOfs/2),DadY)
-                    elseif getProperty('dad.animation.curAnim.name') == 'singUP' or getProperty('dad.animation.curAnim.name') == 'singUP-alt' then
-                        triggerEvent('Camera Follow Pos',DadX,DadY-DadOfs)
-                    elseif getProperty('dad.animation.curAnim.name') == 'singDOWN' or getProperty('dad.animation.curAnim.name') == 'singDOWN-alt' then
-                        triggerEvent('Camera Follow Pos',DadX,DadY+DadOfs)
-                else
-                    setProperty('defaultCamZoom',0.9)
-                    triggerEvent('Camera Follow Pos',DadX,DadY)
-                end
-	end
 end
 
 function onStepHit()
+
 	if curStep == 136 then 
   		doTweenAlpha('dad', 'dad', 1, 2)
   		doTweenAlpha('iconP2', 'iconP2', 1, 2)
         doTweenAlpha('hudAppear', 'camHUD', 1, 0.25)
 	end
-	if curStep == 1036 then 
-	end
 	if curStep == 2196 then  --1:21 sec/3:03
-    	doTweenAlpha('hudbyebye', 'camHUD', 0, 0.5)
+    	--doTweenAlpha('hudbyebye', 'camHUD', 0, 0.5)
 	end
 	if curStep == 2324 then 
-    	doTweenAlpha('hudhello', 'camHUD', 1, 0.25)
+    	--doTweenAlpha('hudhello', 'camHUD', 1, 0.25)
   		doTweenAlpha('coinshi', 'coins', 1, 2)
 	    doTweenY('coinsx','coins.scale', 1, 1, 'sineInOut')
 	    doTweenX('coinsy','coins.scale', 1, 1, 'sineInOut')

@@ -1,4 +1,0 @@
-It will activate of deactivate cinematic bars depending if they are there or not
-
-Value 1: Time it takes
-Value 2: Ease

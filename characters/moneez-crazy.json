@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				140,
+				18
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				467,
+				76
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-590,
+				90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-280,
+				280
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				190,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/moneez-crazy",
+	"position": [
+		-110,
+		30
+	],
+	"healthicon": "moneez",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		20,
+		20
+	],
+	"camera_position": [
+		-90,
+		-30
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}
