@@ -35,7 +35,6 @@ function onCreate()
 	setScrollFactor('white', 0, 0);
 	setProperty('white.alpha',0);
 end
---	removeLuaSprite('upper', true)
 
 function onBeatHit()
 
@@ -49,24 +48,23 @@ function onBeatHit()
 	end
 
 	if curBeat >= 448 and curBeat <= 454 then 
-        	if curBeat % 2 == 0 then
+        if curBeat % 2 == 0 then
 			doTweenAngle('camHUD2', 'camHUD', -1.75, 0.1, 'circOut')
 			doTweenX('camHUD2x', 'camHUD', -25, 0.1, 'circOut')
 			doTweenAngle('camGame3', 'camGame', 2.25, 0.1, 'circOut')
 			
-        	elseif curBeat % 2 == 1 then
+        elseif curBeat % 2 == 1 then
 			doTweenAngle('camHUD1', 'camHUD', 1.75, 0.1, 'circOut')
 			doTweenX('camHUD1x', 'camHUD', 25, 0.1, 'circOut')
 			doTweenAngle('camGame2', 'camGame', -2.25, 0.1, 'circOut')
 
 		end
 	elseif curBeat >= 455 then
-        		doTweenAngle('camHUDIdle', 'camHUD', 0, 0.1, 'circOut')
-			doTweenX('camHUDIdlex', 'camHUD', 0, 0.1, 'circOut')
-			doTweenAngle('camGameIdle', 'camGame', 0, 0.1, 'circOut')
+      	doTweenAngle('camHUDIdle', 'camHUD', 0, 0.1, 'circOut')
+		doTweenX('camHUDIdlex', 'camHUD', 0, 0.1, 'circOut')
+		doTweenAngle('camGameIdle', 'camGame', 0, 0.1, 'circOut')
 
-			doTweenAlpha('vignettebye','vignette',0,0.5,'sineInOut')
-			
+		doTweenAlpha('vignettebye','vignette',0,0.5,'sineInOut')	
 
 	end
 
@@ -91,45 +89,15 @@ function onBeatHit()
 
 	if curBeat == 460 then --460 then
 		doTweenAlpha('hudDisapersrssgd', 'camHUD', 0, 2, 'sineIn')
-        	--doTweenAngle('camHUDdisapear', 'camHUD', 2, 4, 'sineInOut')
 		doTweenY('hudDisapersrssgx', 'camHUD', 45, 3, 'sineInOut')
 	end
 
 
-
-
-
-	--[[if curBeat == 32 then
-		setProperty('cameraSpeed', 1)
-	end
-	if curBeat == 260 then
-		doTweenAlpha('e', 'black', 0.85, 0.5, 'sineIn')
-		doTweenAlpha('ee', 'spotlight1', 0.5, 0.5, 'sineIn')
-		doTweenAlpha('eee', 'spotlight2', 0.5, 0.5, 'sineIn')
-        setProperty('defaultCamZoom',0.6)
-		--setProperty('cameraSpeed', 2)
-	elseif curBeat == 292 then
-		doTweenAlpha('b', 'black', 0, 0.5, 'sineIn')
-		doTweenAlpha('bb', 'spotlight1', 0, 0.5, 'sineIn')
-		doTweenAlpha('bbb', 'spotlight2', 0, 0.5, 'sineIn')
-		setProperty('defaultCamZoom',0.41)
-		--setProperty('cameraSpeed', 1)
-	end--]]
 end
 
 function onUpdate()
 	if curBeat >= 454 and curBeat <= 455 then
 		setProperty('camFollow.x',getProperty('dad.x')-30)
-	end
-	--setProperty('cpuControlled', true)
-
-	if curBeat >= 0 and curBeat <= 1 then --moon
-		--doTweenZoom('campanzoom2','camGame',0.39,20,'expoOut')
-		--setProperty('camFollow.x',1800)
-		--setProperty('camFollow.y',-1000)
-		--setProperty('cameraSpeed', 100)
-	elseif curBeat >= 1 and curBeat <= 35 then 
-		--setProperty('cameraSpeed', 100)
 	end
 	
 end

@@ -8,18 +8,15 @@ function onCreate()
 	
 	makeLuaSprite('livingroom2', 'couch2', -350,-400);
 	addLuaSprite('livingroom2', false)
-	--scaleObject('livingroom2',3.5,3.5)
 	setProperty('livingroom2.visible', false)
-	--setProperty('livingroom2.alpha',0.5)
 
 	makeLuaSprite('store', 'store', -10000,-350);
 	addLuaSprite('store', false)
 	scaleObject('store',1.5,1.5)
-	--setProperty('store.visible', false)
 
 	makeLuaSprite('black', '', -950, -450); 
 	makeGraphic('black', 3200, 1600, '000000');
-    --addLuaSprite('black', true);
+    	addLuaSprite('black', true);
 	setScrollFactor('black', 0, 0);
 	setProperty('black.alpha',1);
 
@@ -134,5 +131,11 @@ function onUpdate()
 		if getProperty('gf.x') >= 1500 then
 			setProperty('gf.x', -10000)
 		end
+	end
+end
+
+function onEvent(name, v1, v2)
+	if name == 'subtitles' then
+		setTextFont('subtitles', 'Rockwell-Bold.ttf')
 	end
 end

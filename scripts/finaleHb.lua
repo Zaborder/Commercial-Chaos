@@ -13,22 +13,11 @@ function onCreatePost()
 	makeLuaSprite('tvOpponent', 'hptv', 0,	575);
 	setObjectCamera('tvOpponent', 'hud');
 	addLuaSprite('tvOpponent',false);
-		
-	setObjectOrder('tvOpponent', getObjectOrder('healthbar') + 3);
-	setObjectOrder('tvBf', getObjectOrder('healthBar') + 3);
 end
 
 curFrame = 0;
 curHealth = 0;
 iconAnim = 'default';
-function onUpdatePost(e)
-
-	setProperty('iconP1.x', getProperty('healthBarOV.x') + getProperty('healthBarOV.width') - 55)
-	setProperty('iconP1.y', 535)
-	setProperty('iconP2.x', getProperty('healthBarOV.x') - 95)
-	setProperty('iconP2.y', 535)
-
-end	
 function onUpdatePost(e)
 
 	setProperty('tvBf.x',getProperty('healthBar.x')-65)

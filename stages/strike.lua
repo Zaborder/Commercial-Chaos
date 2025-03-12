@@ -53,12 +53,11 @@ function onCreate()
 	makeLuaSprite('grass','mcsonic/grass', -1000,-700);
 	setScrollFactor('grass', 0.8, 0.8);
 	addLuaSprite('grass',false)
-	
-	
 
 	setProperty('lightning1.visible',false)
 	setProperty('lightning2.visible',false)
 	setProperty('lightning3.visible',false)
+
 
 	--makeLuaSprite('cinema1', '', 0, 600);
         --makeGraphic('cinema1', 3000, 3000, '000000');
@@ -69,51 +68,5 @@ function onCreate()
         --makeGraphic('cinema2', 3000, 1000, '000000');
         --setObjectCamera('cinema2', 'hud');
         --addLuaSprite('cinema2', false);
-	
-	runTimer('wee',0.01)
-end
-function onCreatePost()
 
-	
-end
-
-gfAngle = 0;
-function onUpdate(elapsed)
-	
-
-	if mustHitSection == false then
-		setProperty('defaultCamZoom',0.6)
-		doTweenY('bfsx','boyfriendGroup.scale', 1.35, 0.1, 'sineInOut')
-		doTweenX('bfsy','boyfriendGroup.scale', 1.35, 0.1, 'sineInOut')
-		
-		doTweenY('dadsx','dad.scale', 0.77, 0.1, 'sineInOut')
-		doTweenX('dadsy','dad.scale', 0.77, 0.1, 'sineInOut')
-	else
-		setProperty('defaultCamZoom',0.4)
-		doTweenY('bfsx','boyfriendGroup.scale', 1, 0.1, 'sineInOut')
-		doTweenX('bfsy','boyfriendGroup.scale', 1, 0.1, 'sineInOut')
-		
-		doTweenY('dadsx','dad.scale', 0.67, 0.1, 'sineInOut')
-		doTweenX('dadsy','dad.scale', 0.67, 0.1, 'sineInOut')
-		
-	end
-	
-	setProperty('gfGroup.angularVelocity', 5);
-	gfAngle = gfAngle + (elapsed * 10);
-    setProperty('gfGroup.x', 400 + (1070 * math.cos(math.pi / 180 * (1 * gfAngle + 180))));
-	setProperty('gfGroup.y', -400 + (870 * math.sin(math.pi / 180 * (1 * gfAngle + 180))));
-
-end
-
-function onSectionHit()
-end
-
-function onTimerCompleted(t,l,ll)
-	
-end
-
-function onPostUpdate()
-	--setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y') + 3 * math.sin(curDecBeat / 4 * math.pi) * elapsed * 60)
-	
-	--setProperty('grass.y', getProperty('grass.y') + 8 * math.sin(curDecBeat / 4 * math.pi) * elapsed * 60)
 end

@@ -20,6 +20,11 @@ function onCreatePost()
 	setProperty('walls.visible',false)
 	addLuaSprite('walls', false)
 end
+function onGameOver()
+	makeLuaSprite('dead', 'amigo/gameover',-1875,-800)
+	setProperty('dead.visible',true)
+	addLuaSprite('dead', true)
+end
 
 function onBeatHit()
 	if curBeat == 292 then

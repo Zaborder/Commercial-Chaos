@@ -14,7 +14,6 @@ end
 function onUpdate(elapsed, focus)
     if keyboardJustPressed('SPACE') and allowmash == true then
         Yeah = Yeah + 1
-        setTextString('hitdebug', 'LICKS: ' .. Yeah);
       end
 
 end
@@ -26,7 +25,7 @@ function onBeatHit()
 		allowmash = true
 	end
 	if curBeat == 703 then
-		if Yeah >= 15 then
+		if Yeah >= 20 then
 			makeLuaSprite('ending', 'good_ending', 0, 0);
 		else
 			makeLuaSprite('ending', 'bad_ending', 0, 0);
